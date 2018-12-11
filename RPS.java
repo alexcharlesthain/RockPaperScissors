@@ -21,8 +21,7 @@ public class RPS {
 		int x = randomNumber.nextInt(3) + 1;
 		playgame();
 	}
-		
-		public static String playgame() {
+	public static String playgame() {
 			 int randomNumber = 0;
 			if(randomNumber == rock){
 		         int personChoice = 0;
@@ -49,19 +48,10 @@ public class RPS {
 		     }   else if(personChoice == scissors){
 		             return" TIE!";
 		     }   else if(personChoice == paper){
-		            return" You lose! :( ";
-			
-		}
-			
+		            return" You lose! :( ";		
+		}		
 		}
 	}
-		
-		
-
-
-	}
-			
-			
+	}			
 }
-
 }
